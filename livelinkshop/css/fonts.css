@@ -1,0 +1,10 @@
+@font-face {
+ font-family: "Gothic"; 
+src: url("../fonts/GOTHIC.eot"); 
+src: url("../fonts/GOTHIC.eot?#iefix") format("embedded-opentype"),
+url("../fonts/CenturyGothic.woff") format("woff"), 
+url("../fonts/fonts/GOTHIC.TTF") format("truetype"); 
+font-style: normal; 
+font-weight: 400; 
+}
+
