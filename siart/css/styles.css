@@ -1,0 +1,134 @@
+@import url("fonts.css");
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	outline: none;
+}
+
+body{
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+	background-color: #ffea00;
+}
+
+header{
+	background-color: #fff;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.header-top{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.header-contacts{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 120px;
+}
+
+.header-contacts span{
+	font-size: 24px;
+}
+
+.header-contacts a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #9f9f9f;
+	font-weight: 300;
+}
+
+.header-info{
+	margin-top: 75px;
+}
+
+.header-info h1{
+	font-family: 'GothamPro-Bold', sans-serif;
+	font-size: 58px;
+}
+
+.header-info h1:nth-child(2){
+	font-family: 'GothamPro-Light', sans-serif;
+}
+
+.header-info p{
+	margin-top: 44px;
+	display: inline-block;
+	width: 744px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.header-butt a{
+	display: block;
+	margin-top: 70px;
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #9f9f9f;
+	font-family: 'GothamPro-Bold', sans-serif;
+}
+/******************************************/
+.seo-reasons{
+	margin-top: 70px;
+	text-align: center;
+}
+
+.section-title{
+	font-size: 48px;
+	font-family: 'GothamPro-Bold', sans-serif;
+}
+
+.seo-reasons_mblock{
+	margin-top: 42px;
+	display: inline-flex;
+	justify-content: space-between;
+	width: 1150px;
+}
+
+.seo-reasons_block{
+	width: 360px;
+}
+
+.seo-reasons_block span{
+	font-size: 60px;
+	font-weight: 600;
+}
+
+.reason-img{
+	margin-top: 30px;
+	margin-bottom: 25px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+}
+
+.reason-img::after{
+	content: "";
+	display: block;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 1.5px dashed #dadada;
+	position: absolute;
+}
+
+.seo-reasons_block p{
+	font-size: 20px;
+}
