@@ -17,6 +17,20 @@ body{
 
 .wrapper{
 	background-color: #ffea00;
+	width: 1920px;
+}
+
+.container1{
+	/*outline: 1px solid blue;*/
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.container{
+	/*outline: 1px solid red;*/
+	max-width: 1170px;
+	margin: 0 auto;
+	/*padding: 0 15px;*/
 }
 
 header{
@@ -84,6 +98,7 @@ header{
 .seo-reasons{
 	margin-top: 70px;
 	text-align: center;
+	padding-bottom: 92px;
 }
 
 .section-title{
@@ -131,4 +146,213 @@ header{
 
 .seo-reasons_block p{
 	font-size: 20px;
+}
+/********************************************/
+
+.find-out-now{
+	width: 100%;
+	border-top: 1px solid #e0ce00; 
+	border-bottom: 1px solid #e0ce00;
+	background-color: #fff;
+	/*margin-bottom: 75px;*/
+	/*outline: 1px solid pink;*/
+	/*height: 460px;*/
+}
+
+.find-main{
+	/*background-color: lightblue;*/
+	text-align: center;
+	padding-top: 110px;
+	padding-bottom: 70px;
+	/*background-image: url('../img/find-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;*/
+	/*background-size: auto 100%;*/
+	/*background-size: cover;*/
+}
+
+/*.find-main .section-title{
+	margin-top: 110px;
+}*/
+
+.find-line{
+	height: 3px;
+	width: 612px;
+	background-color: #9f9f9f;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.find-main h4{
+	font-size: 20px;
+	font-family: 'GothamPro-Light', sans-serif;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+
+.find-main a{
+	display: block;
+	width: 360px;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-decoration: none;
+	border: 4px solid #9f9f9f;
+	padding: 20px 0;
+	border-radius: 30px;
+	margin: 0 auto;
+	color: #9f9f9f;
+	font-family: 'GothamPro-Bold', sans-serif;
+	height: 70px;
+	box-sizing: border-box;
+}
+/***********************************************/
+
+.who-uses{
+	padding-top: 75px;
+}
+
+.who-uses h3{
+	font-size: 32px;
+	font-family: 'GothamPro-Bold', sans-serif;
+	text-align: center;
+}
+
+.who-uses-block{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.who-uses-elem{
+	width: 360px;
+	height: 370px;
+	border-radius: 5px;
+	background-color: #fff;
+	border: 1px solid #e0ce00;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	/*display: block;
+	text-align: center;*/
+	/*padding-top: 30px;
+	padding-bottom: 25px;*/
+	/*box-sizing: border-box;*/
+}
+
+.who-uses-elem img{
+	margin-bottom: 20px;
+}
+
+.who-uses-elem:nth-child(2) img{
+	margin-top: -15px;
+}
+
+.who-uses-elem:nth-child(2) h6{
+	margin-top: -5px;
+}
+
+.who-uses-elem:nth-child(3) img{
+	margin-top: -10px;
+}
+
+.who-uses-elem:nth-child(3) h6{
+	margin-top: -7px;
+}
+
+.who-uses-elem h6{
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+}
+/************************************/
+.professionals{
+/*	outline: 1px solid blue;*/
+	padding-top: 270px;
+	padding-bottom: 114px;
+	background-image: url(../img/prof-bg2.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	z-index: -1;
+	margin-top: -240px;
+}
+
+.professionals-block{
+	/*margin-top: 180px;*/
+	/*background-color: #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*margin-bottom: 114px;*/
+}
+
+
+.prof-link{
+	font-size: 16px;
+	color: #9f9f9f;
+	font-family: 'GothamPro-Bold', sans-serif;
+}
+
+.professionals-block h2{
+	/*outline: 1px solid red;*/
+	color: #ffea00;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 86px;
+	background-image: url(../img/prof-title-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 670px;
+	font-family: 'GothamPro-Bold', sans-serif;
+	margin-bottom: 20px;
+}
+
+
+.professionals-block h3{
+	font-size: 20px;
+	color: #9f9f9f;
+	font-weight: 400;
+}
+
+.professionals-central{
+	margin-top: 70px;
+	width: 802px;
+	border: 4px solid #ed1c24;
+	display: flex;
+	justify-content: space-around;
+	padding: 86px 0 61px 0;
+	margin-bottom: 60px;
+}
+
+.professionals-central ul{
+	list-style-type: none;
+}
+
+.professionals-central ul li{
+	margin-bottom: 25px;
+}
+
+.professionals-block h4{
+	font-size: 42px;
+	font-family: 'GothamPro-Bold', sans-serif;
+	text-align: center;
+}
+
+.arrow{
+	width: 3px;
+	height: 64px;
+	background-color: #000;
+	display: block;
+	margin: 20px 0 55px 0;
+}
+
+.professionals-block span{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'GothamPro-Bold', sans-serif;
 }
