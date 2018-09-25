@@ -16,3 +16,12 @@ url("../fonts/GothamPro-Light.ttf") format("truetype");
 font-style: normal; 
 }
 
+@font-face {
+ font-family: "TTWallsRoughBold"; 
+src: url("../fonts/TTWallsRoughBold.eot"); 
+src: url("../fonts/TTWallsRoughBold?#iefix") format("embedded-opentype"),
+url("../fonts/TTWallsRoughBold.woff") format("woff"), 
+url("../fonts/TTWallsRoughBold.ttf") format("truetype"); 
+font-style: normal; 
+}
+
