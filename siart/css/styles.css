@@ -25,7 +25,6 @@ body{
 }
 
 .container1{
-	outline: 1px solid blue;
 	max-width: 1400px;
 	margin: 0 auto;
 }
@@ -33,7 +32,6 @@ body{
 .container{
 	max-width: 1170px;
 	margin: 0 auto;
-	outline: 1px solid red;
 	padding: 0 15px;
 }
 
