@@ -18,6 +18,7 @@ body{
 .wrapper{
 	background-color: #ffea00;
 	max-width: 1920px;
+	overflow: hidden;
 }
 
 .container1{
@@ -105,18 +106,42 @@ header{
 	margin-top: 70px;
 	text-align: center;
 	padding-bottom: 92px;
+	position: relative;
+}
+
+.seo-arrow1{
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+
+
+.seo-arr2{
+	position: absolute;
+	top: 30px;
+	left: 110px;
+	display: block;
 }
 
 .section-title{
 	font-size: 48px;
 	font-family: 'GothamPro-Bold', sans-serif;
+	position: relative;
 }
+
+.seo-reasons h2{
+	background-color: pink;
+	display: inline-block;
+	background-color: #ffea00;
+}
+
 
 .seo-reasons_mblock{
 	margin-top: 42px;
 	display: inline-flex;
 	justify-content: space-between;
 	width: 100%;
+	background-color: #ffea00;
 }
 
 .seo-reasons_block{
@@ -421,17 +446,28 @@ header{
 .our-offers{
 	padding-top: 50px;
 	padding-bottom: 108px;
+	position: relative;
+	text-align: center;
 }
 
 .our-offers  h2{
 	font-size: 42px;
 	font-family: 'GothamPro-Bold', sans-serif;
 	text-align: center;
+	background-color: #ffea00;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 5px ;
 }
+
 
 .our-offers  p{
 	font-size: 40px;
 	font-family: 'GothamPro-Light', sans-serif;
+	background-color: #ffea00;;
+	margin-top: -1px;
+	position: relative;
+	text-align: justify;
 }
 
 .our-offers span{
@@ -443,6 +479,28 @@ header{
 	justify-content: space-between;
 	padding-top: 75px;
 	padding-bottom: 50px;
+	position: relative;
+	background-color: #ffea00;
+}
+
+.our-arr1{
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	display: block;
+}
+
+.our-arr2{
+	position: absolute;
+	right: -265px;
+	top: -20px;
+}
+
+.our-arr3{
+	position: absolute;
+	top: 310px;
+	left: 125px;
+	display: block;
 }
 
 .our-offers-elem{
@@ -731,7 +789,6 @@ header{
 	border-radius: 50%;
 	height: 1170px;
 	width: 1140px;
-	/*width: 100%;*/
 	padding-top: 100px;
 	text-align: center;
 }
@@ -812,22 +869,28 @@ label{
 
 
 input[type="checkbox"]{
-	width: 20px;
-	height: 20px;
+	width: 19px;
+	height: 19px;
 	margin-right: 25px;
+	outline: 2px solid #9f9f9f;
 }
 
 .checkbox{
-	border: 2px solid #9f9f9f;
+	position: relative;
 }
 
 .checkbox::before{
 	content: "";
-	display: block;
-	width: 20px;          
-	height: 20px;
-	border: 2px solid #9f9f9f;
-	box-sizing: border-box;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	bottom: 3px;
+	left: 3px;
+	background-color: #fff;
+}
+
+.checkbox:checked::before{
+	background-color: #9f9f9f;
 }
 
 
@@ -956,6 +1019,11 @@ footer{
 
 /*****************************MEDIA*****************/
 
+@media only screen and (max-width: 1418px){
+	.our-arr3{
+		visibility: hidden;
+	}
+}
 @media only screen and (max-width: 1280px) {
 	.seo-reasons_block{
 		width: 30.7%;
@@ -987,6 +1055,12 @@ footer{
 	.question-block-in{
 		width: 940px;
 	}
+}
+
+@media only screen and (max-width: 1170px){
+	.our-arr1, .our-arr2, .seo-arr2, .seo-arrow1{
+		visibility: hidden;
+	} 
 }
 
 @media only screen and (max-width: 1107px){
