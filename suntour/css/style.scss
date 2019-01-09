@@ -1,0 +1,696 @@
+$bgc_header: #00BFF3;
+
+
+
+body{
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+////////////////HEADER//////////////////////////////
+header{
+    background-color: $bgc_header;
+}
+
+.wrap{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.header-content{
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+    span{
+        margin-left: 22px;
+        font-size: 16px;
+    }
+}
+
+.header-info{
+    display: flex;
+}
+
+.back-call{
+    display: flex;
+    align-items: center;
+    a{
+        font-size: 30px;
+        text-decoration: none;
+        color: #fff;
+    }
+    span{
+        margin-left: 26px;
+        font-size: 16px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+}
+
+.socials-link{
+    margin-left: 47px;
+    a{
+        margin-right: 10px;
+    }
+    a:last-child{
+        margin-right: 0;
+    }
+}
+
+////////////////TOUR-BLOCK//////////////////////////////
+.tour-block{
+    padding-top: 24px;
+    padding-bottom: 53px;
+}
+
+.tour-main-img{
+    height: 553px;
+    background: url(../img/sozpol-tour.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+    position: relative;
+    width: 100%;
+    .tour-code{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: rgba(255, 242, 0, 0.7);
+        position: absolute;
+        bottom: 32px;
+        left: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size: 25px;
+            font-weight: 700;
+            text-align: center;
+            line-height: normal;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+        span{
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: normal;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+        span:last-child{
+            margin-top: 6px;
+            font-size: 24px;
+            color: #fff;
+            background: #000000;
+            padding: 1px 4px;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+    }
+    img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.tour-days{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 114px;
+    bottom: -145px;
+    span:first-child{
+        color: #777777;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 88px;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    span:last-child{
+        font-size: 30px;
+        color: #000000;
+    }
+}
+
+.tour-assessment-top{
+    display: flex;
+    align-items: center;
+    h3{
+        font-size: 35px;
+        font-weight: 700;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    span{
+        font-size: 35px;
+        font-weight: 700;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+}
+
+.tour-assessment-cont{
+    display: flex;
+}
+
+.tour-assessment-common{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.tour-assessment-common>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.tour-assessment-common span:nth-child(2){
+    font-weight: 700;
+}
+
+.common{
+    background: #00BFF3;
+    width: 52px;
+    height: 52px;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+.tour-assessment-sep{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        span:first-child{
+            font-size: 12px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        span:last-child{
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}
+
+.rating{
+    display: flex;
+    margin: 0 20px;
+}
+
+.tour-others{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-others-elem{
+    width: 48%;
+}
+
+.tour-others-img{
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tour-others-desc{
+    display: flex;
+    justify-content: space-between;
+    a{
+        font-weight: bold;
+        line-height: normal;
+        font-size: 35px;
+        font-family: 'Trebuchet MS', sans-serif;
+        color: #000000;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+        transition-duration: 500ms;
+        transition-property: color, border;
+        &:hover{
+            color: #CB0000;
+            border-bottom: 1px solid rgba(203, 0, 0, 0.25);
+        }
+    }
+    span{
+        font-weight: bold;
+        line-height: normal;
+        font-size: 35px;
+        color: #000000;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+}
+
+.tour-others-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span{
+        font-size: 20px;
+        color: #777777;
+        position: relative;
+        &::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: #CB0000;
+            position: absolute;
+            bottom: 12px;
+        }
+    }
+}
+
+
+////////////////CELSIUS//////////////////////////////
+.celsius{
+    padding-bottom: 40px;
+}
+
+.celsius-title{
+    font-weight: bold;
+    line-height: 52px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #000000;
+}
+
+.celsius-article{
+    display: flex;
+    justify-content: space-between;
+    ul{
+       li{
+           margin-left: -30px;
+           list-style-type: none;
+       } 
+    }
+}
+
+.celsius-article-main{
+    width: 74%;
+    p{
+        line-height: 19px;
+    }
+    span{
+        font-weight: bold;
+        font-size: 22px;
+    }
+}
+
+.celsius-article-main .subtitle{
+    font-size: 16px;
+}
+
+.italic-p{
+    font-style: italic;
+    position: relative;
+    padding-left: 77px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px 0;
+    &::after{
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 100%;
+        background: #00BFF3;
+        left: 47px;
+        bottom: -12px;
+        top: 0;
+    }
+}
+
+.celsius-article-table{
+    .cl-top{
+        height: 36px;
+        background: rgba(119, 119, 119, 0.2);
+        width: 86%;
+        display: flex;
+        align-items: center;
+        padding-left: 116px;
+    }
+}
+
+.cl-top .cl-top-sp{
+    color: #000000;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+.cl-main{
+    display: flex;
+}
+
+.cl-main-l{
+    display: flex;
+    flex-direction: column;
+    span{
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 14px;
+        margin-left: 14px;
+    }
+}
+
+.cl-main-r{
+    margin-left: 20px;
+}
+
+.cl-main-r div:nth-child(2)>span{
+    margin-right: 94px;
+}
+
+.cl-main-r div{
+    display: flex;
+    span{
+        font-size: 14px;
+        margin-top: 14px;
+        margin-left: 14px;
+        font-weight: normal;
+        margin-right: 15px;
+    }
+}
+
+.cl-main-r .hidden-self{
+    font-weight: bold;
+    display: none;
+    background: rgba(119, 119, 119, 0.2);
+}
+
+.celsius-article-note{ 
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    span{
+        font-weight: bold;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 100px;
+        letter-spacing: -0.05em;
+        color: #777777;
+    }
+    h3{
+        font-weight: normal;
+        line-height: 31px;
+        font-size: 30px;
+        margin: 0;
+    }
+    p{
+        font-weight: normal;
+        line-height: 25px;
+        font-size: 20px;
+        color: #777777;
+        margin: 0;
+    }
+}
+////////////////FOOTER//////////////////////////////
+.footer-content{
+    border-top: 1px solid #777777;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info{
+    p{
+        line-height: 17px;
+        font-size: 12px;
+    }
+}
+
+.footer-info{
+    text-align: center;
+}
+
+.footer-socials{
+    a{
+        margin-right: 10px;
+    }
+    a:last-child{
+        margin-right: 0;
+    }
+}
+
+
+////////////////MEDIA//////////////////////////////
+@media only screen and (max-width: 1049px){
+    .container{
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 910px){
+    .header-content{
+        padding: 15px 0;
+        height: auto;
+        flex-direction: column;
+    }
+    .header-info{
+        margin-top: 10px;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 879px){
+    .celsius-article-table{
+        display: flex;
+        .cl-top{
+            padding-left: 30px;
+            flex-direction: column;
+            height: auto;
+            width: 50%;
+        }
+        .cl-main-l{
+            span{
+                margin-bottom: 150px;
+            }
+        }
+        .cl-main-r div{
+            flex-direction: column;
+        }
+
+        .cl-top{
+            display: none;
+        }
+
+        .hidden-self{
+            display: inline-block;
+        }
+    }
+
+    .tour-assessment-top{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        h3{
+            margin: 20px 0;
+        }
+    }
+    .rating{
+        margin: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 862px){
+    .tour-others{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tour-others-elem{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 712px){
+    .celsius-article{
+        flex-direction: column;
+    }
+
+    .celsius-article-main{
+        width: 100%;
+    }
+
+    .celsius-article-note{
+        width: 100%;
+    }
+
+    .celsius-article-note{
+        padding-top: 10px;
+        p{
+            margin-top: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 626px){
+    .tour-main-img{
+        height: 353px;        
+    }
+    .tour-assessment{
+        margin-top: 130px;
+    }
+
+    .tour-assessment-top{
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 577px){
+    .tour-assessment-cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .common{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 566px){
+    .header-info{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .back-call{
+        margin: 0 auto;
+    }
+
+    .socials-link{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .tour-others-elem{
+        width: 90%;
+    }
+
+    .celsius-title{
+        font-size: 32px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 519px){
+    .tour-code{
+        top: 32px;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .tour-main-img{
+        .tour-code{
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        img{
+            display: none;
+        }
+    }
+
+    .tour-others-img{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .tour-others-desc{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tour-days{
+        bottom: -160px;
+    }
+
+    .tour-assessment-top{
+        padding-top: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 418px){
+    .celsius-article-table .cl-main-l{
+        span{
+            margin-bottom: 200px;
+        }
+    }
+ 
+@media only screen and (max-width: 395px){
+    .back-call{
+        flex-direction: column;
+        align-items: center;
+        span{
+            margin-left: 0;
+        }
+    }
+
+    .tour-assessment-sep{
+        flex-direction: column;
+        div{
+            align-items: center;
+            margin: 5px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 379px){
+    .logo{
+        flex-direction: column;
+        align-items: center;
+        span{
+            margin-top: 10px;
+            margin-left: 0;
+        }
+    }
+
+    .back-call{
+        flex-direction: column;
+        align-items: center;
+        span{
+            margin-left: 0;
+        }
+    }
+
+    .tour-others-desc{
+        a{
+            font-size: 24px;
+        }
+        span{
+            font-size: 24px;
+        }
+    }
+}
+@media only screen and (max-width: 353px){
+    .celsius-article-table{
+        display: none;
+    }
+}
+}
